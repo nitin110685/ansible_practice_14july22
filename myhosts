@@ -1,2 +1,6 @@
 [mywebservers]
 172.31.22.153
+
+
+[mywebservers:vars]
+mywebpackonubuntu= apache2

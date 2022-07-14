@@ -4,11 +4,11 @@
   tasks:
   - name: i want to install apache2
     apt:
-      name: apache2
+      name: "{{mywebpackonubuntu}}"
       state : present
 
   - name: i want to start apache2 services
     service:
-      name: apache2
+      name: "{{mywebpackonubuntu}}"
       state : started
      
